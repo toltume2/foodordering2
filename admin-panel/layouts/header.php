@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-define("APPURL", "http://localhost/foodordering");
-define("ADMINURL", "http://localhost/foodordering/admin-panel");
+define("APPURL", "https://e-commerce-food-ordering.infinityfreeapp.com");
+define("ADMINURL", "https://e-commerce-food-ordering.infinityfreeapp.com/admin-panel");
 
 $current = basename($_SERVER['PHP_SELF']);
 

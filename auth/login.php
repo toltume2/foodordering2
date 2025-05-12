@@ -40,7 +40,7 @@ if(isset($_POST['submit'])) {
              $_SESSION['user_id'] = $fetch['id'];
              $_SESSION['image'] = $fetch['image'];
 
-             echo "<script> window.location.href='".APPURL."'; </script>";
+             echo "<script> window.location.href='".APPURL."/shop.php'; </script>";
 
            } else {
             

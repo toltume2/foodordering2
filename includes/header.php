@@ -2,10 +2,10 @@
 
     
     session_start();
-    define("APPURL","http://localhost/foodordering");
+    define("APPURL","https://e-commerce-food-ordering.infinityfreeapp.com");
     
-    define("IMGURLCATEGORY", "http://localhost/foodordering/admin-panel/categories-admins/img_category");
-    define("IMGURLPRODUCT", "http://localhost/foodordering/admin-panel/products-admins/img_product");
+    define("IMGURLCATEGORY", "https://e-commerce-food-ordering.infinityfreeapp.com/admin-panel/categories-admins/img_category");
+    define("IMGURLPRODUCT", "https://e-commerce-food-ordering.infinityfreeapp.com/admin-panel/products-admins/img_product");
 
     require dirname(dirname(__FILE__)) . "/config/config.php";
 

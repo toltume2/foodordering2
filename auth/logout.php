@@ -4,4 +4,4 @@
     session_unset();
     session_destroy();
 
-    echo "<script> window.location.href='http://localhost/foodordering'; </script>";
+    echo "<script> window.location.href='https://e-commerce-food-ordering.infinityfreeapp.com'; </script>";

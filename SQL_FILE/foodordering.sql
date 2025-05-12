@@ -53,9 +53,9 @@ CREATE TABLE `cart` (
   `pro_id` int(3) NOT NULL,
   `pro_title` varchar(200) NOT NULL,
   `pro_image` varchar(200) NOT NULL,
-  `pro_price` int(10) NOT NULL,
+  `pro_price` varchar(10) NOT NULL,
   `pro_qty` int(10) NOT NULL,
-  `pro_subtotal` int(10) NOT NULL,
+  `pro_subtotal` varchar(10) NOT NULL,
   `user_id` int(3) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`id`)
